@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset = "utf-8">
+  <title>&#127858;BMI Calculator Page~</title>
+  <link rel = "stylesheet" href = "CSS/Styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Sacramento&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Clicker+Script&display=swap" rel="stylesheet">
+
+</head>
+  <body>
+
+  <!--header-->
+  <div class = "headerDiv">
+      <table>
+        <tr class ="alignCenter">
+          <td>
+            Welcome to Nisha's Recipes. &nbsp; &nbsp; Feel Free to contact us &nbsp; &nbsp; Call Us: +971 2 88554477 &nbsp;&nbsp;
+            <a href = "mailto:nisha-recipes@adu.ac.ae"><img src = "images/email.png" alt = "email icon" width = "20" height = "15"></a>&nbsp &nbsp
+            <a href = "https://www.instagram.com"><img src = "images/insta.png" alt = "insta icon" width = "15" height = "15"></a>&nbsp &nbsp
+            <a href = "https://www.facebook.com"><img src = "images/fb.png" alt = "fb icon" width = "10" height = "15"></a>&nbsp &nbsp
+          </td>
+        </tr>
+      </table>
+  </div>
+
+  <!--website logo-->
+  <table class ="cntrTable">
+      <tr>
+        <td><img src = "images/logo.png" height = "100" width = "100" style="padding-right:12px;"></td>
+        <td><div class = "logo">Nisha's Recipes</div></td>
+      </tr>
+    </table>
+
+  <!--Navigation bar -->
+  <div class = naviBar>
+      <table  class = "navi" align = "center">
+        <tr>
+          <td><a href = "Home.html" class = "nav">Home</a></td>
+          <td><a href = "Menu.html" class = "nav">Recipes</a></td>
+          <td><a href = "Chefs.html" class = "nav">Chefs</a></td>
+          <td><a href = "Diet.html" class = "nav">Diet Plans</a></td>
+          <td><a href = "BMI.html" class = "nav">BMI Calculator</a></td>
+          <td><a href = "AboutUs.html" class = "nav">About Us</a></td>
+        </tr>
+      </table>    </div>
+
+
+    <!--Title-->
+
+    <!--BMI Title-->
+
+
+  <div class = "box3">
+    <table class="qoute">
+      <tr>
+        <td>
+          <span class="specialFont4"> BMI Calculator</span><br>
+        </td>
+      </tr>
+      <tr>
+        <td>
+        <hr>
+        </td>
+      </tr>
+    </table></div>
+
+<!--Calculator-->
+<div>
+  <table class="box1" >
+       <tr>
+         <td>
+           <span class="heading2"> BMI Calculator</span><br>
+           <span  class="fontstyle3">
+             Body Mass Index is a simple calculation using a person’s height and weight. The formula is BMI = kg &frasl; m <sup>2</sup> where kg is a person’s weight in
+             kilograms and m <sup>2</sup> is their height in metres squared. A BMI of 25.0 or more is overweight, while the healthy range is 18.5 to 24.9. BMI applies to most adults 18-65 years.
+           </span>
+         </td>
+      </tr>
+    </table>
+</div>
+
+
+    <script>
+    function calculateBMI()
+    {
+
+      var height = parseInt(document.getElementById("height").value);
+      var weight = parseInt(document.getElementById("weight").value);
+
+      //  document.getElementById("result").innerHTML= "Please provide values";
+
+      var bmi = (weight/(height**2))*10000;
+      bmi = bmi.toFixed(1); //Math.round()
+
+      if(weight!=="" && height!=="")
+      {
+      if(((weight >=20 && weight <=200 ) && (height >= 90 && height <=250)))
+      {
+        if (bmi < 18.5)
+        {
+          document.getElementById("result").innerHTML= ("Your BMI is : "+bmi+" kg &frasl; m <sup>2</sup> <br> <strong>(Underweight)</strong>");
+          document.getElementById("image").innerHTML= ("<img src = 'images/underweight.jpg' height = '300' width = '300' style='padding-right:12px;'>");
+        }
+
+        else if (bmi >= 18.5 && bmi < 24.9)
+        {
+          document.getElementById("result").innerHTML= ("Your BMI is : "+bmi+" kg &frasl; m <sup>2</sup> <br> <strong>(Normal weight)</strong>");
+          document.getElementById("image").innerHTML= ("<img src = 'images/normal.GIF' height = '300' width = '300' style='padding-right:12px;'>");
+        }
+        else if (bmi >= 25 && bmi < 29.9)
+        {
+          document.getElementById("result").innerHTML= ("Your BMI is : "+bmi+" kg &frasl; m <sup>2</sup> <br> <strong>(Overweight)</strong>");
+          document.getElementById("image").innerHTML= ("<img src = 'images/overweight.GIF' height = '300' width = '300' style='padding-right:12px;'>");
+        }
+
+        else if (bmi >= 30 && bmi < 39.9)
+        {
+          document.getElementById("result").innerHTML= ("Your BMI is : "+bmi+" kg &frasl; m <sup>2</sup> <br> <strong>(Obesity)</strong>");
+          document.getElementById("image").innerHTML= ("<img src = 'images/obesity.GIF' height = '300' width = '300' style='padding-right:12px;'>");
+        }
+        else
+        {
+          document.getElementById("result").innerHTML= ("Your BMI is : "+bmi+" kg &frasl; m <sup>2</sup> <br> <strong>(Morbid Obesity)</strong>");
+          document.getElementById("image").innerHTML= ("<img src = 'images/morbid.GIF' height = '300' width = '300' style='padding-right:12px;'>");
+        }
+      }
+      else{
+        alert("INVALID INPUT");
+      }
+    }
+    else{
+      //alert("INVALID INPUT");
+      }
+    }
+
+    </script>
+
+   <!--BMI calculator-->
+    <div >
+     <table class="tableSpecial" align = "center">
+        <tr>
+        <td class="box4" align="left">
+        <form>
+         <p>Height (in cm)</p>
+         <input type="text"  placeholder="Enter Your Height" class="textfield1" id="height">
+
+         <p>Weight (in kg)</p>
+         <input type="text" placeholder="Enter Your Weight"  class="textfield1" id="weight">
+         <br>
+         <br>
+         <input type="button" value="Calculate" class="buttonSub" id="cal" onclick = "calculateBMI()">
+         <p id="result"> View Result Here</p>
+         </form> </td >
+         <td class="box9" colspan="2"  align="center">
+           <p id="image"><img src = "images/BMI-in.jpg" height = "300" width = "500" style="padding-right:12px;">  </p>
+       </td>
+      </tr>
+     </table>
+    </div>
+
+
+
+  </body>
+
+
+  <footer>
+    <!--map and rights-->
+    <div class = "footer1">
+        <table>
+          <tr class ="alignCenter">
+          <td>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d19687.578684198987!2d54.567097976059195!3d24.367692965698556!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5cce3e228d0bfd19!2sAbu%20Dhabi%20University!5e0!3m2!1sen!2sae!4v1654110252951!5m2!1sen!2sae"
+              width="700" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            <br>Visit our recipes magazine location at Abu Dhabi University
+
+          </td>
+          <td style="line-height:200%;">
+            <br>Nisha's Recipes is part of the Noor Food Group.
+            <br>&copy; Copyright 2022 Noor Corporation.
+
+            <br>All Rights Reserved.
+            <br><img src = "images/call.png" alt = "call" width = "15" height = "15"> Call Us: +971 2 88554477&nbsp &nbsp
+            <br>
+            <a href = "mailto:nisha-recipes@adu.ac.ae"><img src = "images/email.png" alt = "email" width = "20" height = "15"></a>&nbsp &nbsp
+            <a href = "https://www.instagram.com"><img src = "images/insta.png" alt = "instagram" width = "15" height = "15"></a>&nbsp &nbsp
+            <a href = "https://www.facebook.com"><img src = "images/fb.png" alt = "fb" width = "10" height = "15"></a>
+          </td>
+        </tr>
+      </table>
+  </div>
+  </footer>
+</html>
