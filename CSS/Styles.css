@@ -1,0 +1,494 @@
+body {
+  letter-spacing: 0.5px;
+  margin: auto;
+  font-size: 20px;
+  font-family: 'Rajdhani', sans-serif;
+  color: #161B19;
+}
+
+.tableSpecial{border: 1pt solid #EDEDED;}
+
+
+/*extra*/
+.logo {
+  /*font-family: 'Sacramento', cursive;*/
+  font-family: 'Clicker Script', cursive;
+  color: #161B19;
+  text-align: center;
+  font-size: 200px;
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.alignCenter {
+  text-align: center;
+}
+
+.cntrIt {
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.qoute {
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  font-weight: lighter;
+}
+.qoute1 {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.specialFont{
+  font-family:'Dancing Script';
+  font-size: 25px;
+}
+
+/*Table*/
+table.navi td {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table.about td {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cntrTable{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/*div*/
+div.headerDiv table {
+  font-size: 13px;
+  width: 100%;
+  margin-bottom: 30px;
+  padding: 8px;
+  font-family: 'Rajdhani', sans-serif;
+  background-color: #87B9AD;  /*87B9AD  #85D2D0*/
+  color: white;
+}
+
+div.footer1 table {
+  font-size: 13px;
+  width: 100%;
+  margin-bottom: 2px;
+  margin-top: 12px;
+
+  padding: 8px;
+  font-family: 'Rajdhani', sans-serif;
+  background-color: #87B9AD;  /*87B9AD  #85D2D0*/
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 150%;
+
+}
+
+div.naviBar {
+  text-align: center;
+  border-color: #87B9AD;
+  width: 100%;
+  font-size: 18px;
+  border-style: solid;
+  border-width: thin;
+  margin-top: 27px;
+  color: #7F7673;
+  font-size: 20px;
+}
+
+
+
+
+/*anchore*/
+a {
+  text-decoration: none;
+  color: #360B10;
+}
+
+/*anchore*/
+a.Clickhere {
+  text-decoration: none;
+  color: #87B9AD;
+}
+
+a:hover.nav {
+  background-color: #EDEDED;
+}
+
+table.navi td a:hover {
+  background-color: #F1F0ED;
+  color: black;
+  padding: 19px;
+  font-style: italic;
+}
+
+div.footDiv table {
+  background-color: #87B9AD;
+  font-family: 'Rajdhani', sans-serif;
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+  padding: 50px;
+  font-size: 13px;
+  margin-bottom: 30px;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.heading1 {
+  margin-top: 15px;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 30px;
+  color: #887BB0;
+  align: center;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.heading2 {
+  font-size: 30px;
+  color: #887BB0;
+  align: center;
+  letter-spacing: 1px;
+  color: #161B19;
+  font-weight: lighter;
+}
+.heading3 {
+  font-size: 30px;
+  color: #887BB0;
+  align: center;
+  letter-spacing: 1px;
+  color: #161B19;
+  font-weight: lighter;
+}
+.heading4 {
+  font-size: 30px;
+  color: #887BB0;
+  text-align: center;
+  letter-spacing: 1px;
+  /*color: #161B19;*/
+  margin-left: 220px;
+  font-weight: lighter;
+  font-family:'Dancing Script';
+}
+.heading5 {
+  font-size: 25px;
+  color: #887BB0;
+  align: center;
+  letter-spacing: 1px;
+  color: #161B19;
+  font-weight: lighter;
+}
+
+
+div.headingst table {
+  font-size: 13px;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-family: 'Rajdhani', sans-serif;
+  background-color: #87B9AD;  /*87B9AD  #85D2D0*/
+  color: white;
+
+}
+.headgfgingst{
+  font-size: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #161B19;
+  font-weight: lighter;
+  align: center;
+}
+
+p.description {
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 16px;
+  padding-left: 40px;
+  background-color: #F1F0ED;
+  width: 60%;
+  color: #161B19;
+}
+
+.specialCataloge{
+  align : center;
+  padding: 0 10px 0 0;
+  margin-bottom: 45px;
+  margin: auto;
+  margin-right: auto;
+}
+
+img.specialCataloge2 {
+  border-radius: 50%;
+  align : center;
+  padding: 0 10px 0 0;
+  margin-bottom: 45px;
+  margin: auto;
+  padding-right:12px;
+}
+
+img.specialCataloge3 {
+  border-radius: 50%;
+  align : center;
+  margin-bottom: 45px;
+  padding-left: auto;
+  padding-right: auto;
+  text-align: center;
+}
+
+.box1{
+  background-color: #EDEDED;
+  text-align: left;
+  margin: auto;
+  margin-bottom: 20px;
+  width: 1087px;
+  margin-right: auto;
+  margin-top: 10px;
+  font-size: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px ;
+}
+
+.box2{
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #EDEDED;
+  margin-bottom: 30px;
+  width: 1087px;
+  margin-top: 20px;
+  font-size: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px ;
+}
+
+.box3{
+  margin-left: auto;
+  margin-right: auto;
+  width: 1087px;
+  margin-top: 20px;
+  font-size: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px ;
+}
+
+
+.box4{
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #EDEDED;
+  width: 340px;
+  font-size: 20px;
+  padding-top: 15px;
+  margin-bottom: 30px;
+  padding-left: 10px ;
+}
+
+.box14{
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #EDEDED;
+  width: 1087px;
+  font-size: 20px;
+  padding-top: 15px;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  padding-left: 10px ;
+}
+
+
+.box5{
+  margin-left: auto;
+  margin-right: auto;
+  width: 1087px;
+  margin-top: 30px;
+  font-size: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px ;
+}
+
+
+.box9{
+  margin-left: auto;
+  margin-right: auto;
+  width: 720px;
+  margin-top: 20px;
+  font-size: 20px;
+  padding-top: 15px;
+  padding-left: 10px ;
+}
+.box6{
+  /*background-color: #EDEDED;*/
+  margin-left: 10px;
+  margin-right: auto;
+  background-color: white;
+  margin-bottom: 70px;
+  width:600px;
+  margin-top: 20px;
+  font-size: 20px;
+  padding-top: 15px;
+  padding-left: 5px ;
+}
+.buttonSub{
+  text-align: center;
+  margin-left: 5px;
+  font-size: 18px;
+  background-color: #87B9AD;
+  font-family: 'Rajdhani', sans-serif;
+  color: white;
+  border-style: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 35px ;
+  padding-right: 35px;
+}
+
+.textfield{
+  text-align: left;
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px ;
+  padding-right:70px;
+  background-color: white;
+  font-family: 'Rajdhani', sans-serif;
+  color: #161B19;
+  border-style: none;
+}
+
+.textfield1{
+  text-align: left;
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px ;
+  padding-right:100px;
+  background-color: white;
+  font-family: 'Rajdhani', sans-serif;
+  color: #161B19;
+  border-style: none;
+}
+
+.fontstyle {
+  font-size: 17px;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.fontstyleText {
+  font-size: 17px;
+  font-family: 'Rajdhani', sans-serif;
+  text-align: justify;
+
+}
+
+
+a.fontstyle2 {
+  font-size: 17px;
+  font-family: 'Rajdhani', sans-serif;
+  color: #87B9AD;
+  text-align:right;
+}
+
+.fontstyle3 {
+  font-size: 17px;
+  font-family: 'Rajdhani', sans-serif;
+  text-align: left;
+  line-height: 170%;
+
+}
+
+.specialFont2 {
+  font-size: 30px;
+  color: #161B19;
+  font-family:'Dancing Script';
+}
+
+.specialFont3 {
+  margin-top: 30px;
+  font-size: 30px;
+  color: #161B19;
+  text-align: center;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.specialFont4 {
+  font-size: 35px;
+  color: #161B19;
+  font-family:'Dancing Script';
+}
+hr{
+   width:80px;
+   color:#EDEDED;
+   align: center;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  margin-top: 40px;
+  background-color: #bbb;
+  border-radius: 50%;
+  border-style: none;
+}
+
+td.titles{
+  font-size: 18px;
+  border-color: #87B9AD;
+  font-weight: lighter;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+img.specialCataloge3 {
+  border-radius: 50%;
+  align : center;
+  padding: 0 10px 0 0;
+  margin-top: 45px;
+  margin-bottom: 45px;
+  margin: auto;
+  padding-right:12px;
+}
+
+div.foot table {
+  width: 50%;
+  font-family: 'Rajdhani', sans-serif;
+  color: black;
+  margin-top: 50px;
+  background-color: #EDEDED;
+  padding: 40px;
+  line-height: 200%;
+}
